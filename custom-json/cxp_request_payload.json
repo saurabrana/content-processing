@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://ns.adobe.com/cxp/capability/execution",
+  "title": "The CXP Request Payload Schema",
+  "type": "object",
+  "properties": {
+    "assets": {
+      "type": "array"
+    },
+    "params": {
+      "type": "object"
+    },
+    "outputs": {
+      "type": "array"
+    }
+  }
+}
